@@ -10,12 +10,15 @@ This is a deep learning-based model designed to transcribe speech from video seq
 - Real-Time Evaluation: Generates predictions after every training epoch to monitor model performance.
 
 # Model Architecture
+
 **3D Convolutional Layers:**
 - Extract spatiotemporal features from video frames.
 - Includes three Conv3D layers followed by ReLU activation and MaxPooling layers.
+  
 **Bidirectional LSTMs:**
-  - Process sequential data to capture temporal dependencies.
+- Process sequential data to capture temporal dependencies.
 - Two layers of bidirectional LSTMs with dropout regularization.
+  
 **Dense Output Layer:**
   - Classifies characters using softmax activation.
 
