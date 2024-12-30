@@ -2,7 +2,7 @@
 
 This is a deep learning-based model designed to transcribe speech from video sequences by analyzing lip movements. This repository implements a comprehensive pipeline for lip-reading, including data preprocessing, model training, and prediction. The model leverages 3D convolutional layers for spatiotemporal feature extraction, bidirectional LSTMs for sequence learning, and a Connectionist Temporal Classification (CTC) loss function for alignment-free text prediction.
 
-***Features***
+*Features*
 
 - Video Processing: Preprocesses video data by extracting grayscale frames and normalizing them.
 - Text Alignments: Maps frames to text alignments for supervised learning.
@@ -10,7 +10,7 @@ This is a deep learning-based model designed to transcribe speech from video seq
 - CTC Loss: Enables the model to handle sequence-to-sequence learning without explicit alignment.
 - Real-Time Evaluation: Generates predictions after every training epoch to monitor model performance.
 
-**Model Architecture**
+*Model Architecture*
 
 3D Convolutional Layers:
 - Extract spatiotemporal features from video frames.
